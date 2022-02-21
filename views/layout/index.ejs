@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
      rel="stylesheet">
 <link rel="stylesheet" href="/stylesheets/navigation.css">
+<link rel="stylesheet" href="/stylesheets/footer.css">
     <title><%= title %> </title>
   </head>
   <body>
@@ -15,5 +16,8 @@
      <%- include('./partials/navigation'); %>
    </header>
    <%- include(`../pages/${template}`); %>
+   <footer>
+     <%- include('./partials/footer'); %>
+   </footer>
   </body>
 </html>
