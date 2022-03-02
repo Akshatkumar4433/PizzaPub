@@ -1,26 +1,27 @@
-<div class="">
-  <div class="progress-bar">
+  <div class="row">
     <div class = 'pizza-image'>
       <img src="images/pizza.jpg" alt="pizza" id = 'pizza-image'>
     </div>
   </div>
-  <div class="customizations">
-    <div id = 'panel0' class = 'custom'>
-      <div class="custom-box">
-        <ul>
-          <li><h4>Choose Your Size</h4></li>
-          <li><a href="#" class = 'button small'>Small(10")</a></li>
-          <li><a href="#" class = 'button small'>Medium(12")</a></li>
-          <li><a href="#" class = 'button small'>Large(14")</a></li>
-          <li><a href="#" class = 'button small'>X-Large(16")</a></li>
-        </ul>
+<form>
+<div class="row">
+  <div class="small-12 columns">
+      <label><h6>Choose Your Size</h6></label>
+      <div class="row">
+        <input type="radio" name="pizzaSize" value="small" id = 'smallSize'><label for="smallSize">Small(10")</label>
       </div>
-      <div class="custom-box">
-        <ul>
-          <li><h4>Choose Your Crusts</h4></li>
-        
-        </ul>
-      </div>
-    </div>
+       <div class="row">
+        <input type="radio" name="pizzaSize" value="medium" id = 'mediumSize'><label for="mediumSize">Medium(12")</label>
+       </div>
+         <div class="row">
+           <input type="radio" name="pizzaSize" value="large" id = 'largeSize'><label for="largeSize">Large(14")</label>
+         </div>
+        <div class="row">
+          <input type="radio" name="pizzaSize" value="xlarge" id = 'xlargeSize'><label for="xlargeSize">X-Large(16")</label>
+        </div>
+     </div>
+     <div class="small-12 columns">
+       <p>pp</p>
+       </div>
   </div>
-</div>
+</form>
